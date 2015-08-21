@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="FutarqueText">
+        <item name="android:textColor">@color/textcolor_primary</item>
+    </style>
+
+    <style name="PinNumberText" parent="FutarqueText">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>

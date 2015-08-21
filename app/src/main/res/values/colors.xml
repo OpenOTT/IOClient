@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textcolor_primary">#000000</color>
+
+    <color name="pin_gnd_background">#d3d7cf</color> // Aluminium
+    <color name="pin_gnd_foreground">#000000</color>
+    <color name="pin_gnd_text">#FFFFFF</color>
+
+    <color name="pin_gpio_background">#D1FDC8</color>
+    <color name="pin_gpio_foreground">#00C601</color>
+
+    <color name="pin_pwm_foreground">#db9356</color>
+    <color name="pin_adc_foreground">#13a8c6</color>
+
+
+    <!-- Alternate mode colors -->
+    <color name="pin_alt_foreground">#c6a720</color>
+
+    <color name="pin_alt_i2c0_background">#FCE94F</color> // Butter
+    <color name="pin_alt_i2c1_background">#C4A000</color>
+
+    <color name="pin_alt_ts0_background">#E9B96E</color> // Chocolate
+    <color name="pin_alt_ts1_background">#8F5902</color>
+
+    <color name="pin_alt_smc0_background">#8AE234</color> // Chameleon
+    <color name="pin_alt_smc1_background">#4E9A06</color>
+
+    <color name="pin_alt_uart0_background">#729FCF</color> // Sky Blue
+    <color name="pin_alt_uart1_background">#204A87</color>
+
+    <color name="pin_alt_spi0_background">#AD7FA8</color> // Plum
+    <color name="pin_alt_spi1_background">#5C3566</color>
+
+    <color name="pin_alt_i2sin0_background">#EF2929</color> // Scarlet Red
+    <color name="pin_alt_i2sin1_background">#A40000</color>
+
+    <color name="pin_alt_i2sout0_background">#FCAF3E</color> // Orange
+    <color name="pin_alt_i2sout1_background">#CE5C00</color>
+
+    <color name="pin_alt_pwm_background">#5C3566</color>
+    <color name="pin_alt_adc_background">#A40000</color>
+
+
+    <color name="pin_text">#000000</color>
+    <color name="standard_background">#ffeeeeee</color>
+
+</resources>

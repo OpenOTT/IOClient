@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IO</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_gpio">GPIO</string>
+    <string name="title_spi">SPI</string>
+    <string name="title_i2c">I2C</string>
+    <string name="title_uart">UART</string>
+    <string name="legend_not_available">N/A</string>
+    <string name="legend_ts0">TS 0</string>
+    <string name="legend_ts1">TS 1</string>
+    <string name="legend_smc0">SMC 0</string>
+    <string name="legend_smc1">SMC 1</string>
+    <string name="legend_uart0">UART 0</string>
+    <string name="legend_uart1">UART 1</string>
+    <string name="legend_spi0">SPI 0</string>
+    <string name="legend_spi1">SPI 1</string>
+    <string name="legend_i2c0">I2C 0</string>
+    <string name="legend_i2c1">I2C 1</string>
+    <string name="legend_i2sin0">I2S IN 0</string>
+    <string name="legend_i2sin1">I2S IN 1</string>
+    <string name="legend_i2sout0">I2S OUT 0</string>
+    <string name="legend_i2sout1">I2S OUT 1</string>
+    <string name="settings_pwm_period_ns">PWM Period ns</string>
+    <string name="settings_pwm_period_ns_summary">Set the PWM period in nano seconds</string>
+    <string name="settings_adc_reflevel_mv">ADC reference level mV</string>
+    <string name="settings_adc_reference_level_mv_summary">Set ADC reference level mV</string>
+    <string name="pref_adc_reference_level_default">3300</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="legend_pwm">PWM</string>
+    <string name="legend_adc">ADC</string>
+    <string name="state_low">Low</string>
+    <string name="state_high">High</string>
+
+</resources>

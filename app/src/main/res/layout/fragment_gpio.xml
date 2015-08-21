@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.openott.ioclient.fragments.GPIOFragment">
+
+<!--    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" > -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="7">
+            <GridView
+                android:id="@+id/gpio_connector_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:numColumns="2"
+                android:columnWidth="50dp"
+                android:verticalSpacing="2dp"
+                android:horizontalSpacing="2dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center" >
+            </GridView>
+
+            <GridView
+                android:id="@+id/gpio_connector_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:numColumns="2"
+                android:columnWidth="50dp"
+                android:verticalSpacing="2dp"
+                android:horizontalSpacing="2dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center" >
+            </GridView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="Legend"/>
+            <GridView
+                android:id="@+id/gpio_legend_grid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="8"
+                android:verticalSpacing="4dp"
+                android:horizontalSpacing="4dp">
+            </GridView>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

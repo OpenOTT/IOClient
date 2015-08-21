@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="pwm_period_ns"
+        android:title="@string/settings_pwm_period_ns"
+        android:summary="@string/settings_pwm_period_ns_summary"
+        android:defaultValue="50000" />
+    <ListPreference
+        android:key="adc_reflevel_mv"
+        android:title="@string/settings_adc_reflevel_mv"
+        android:summary="@string/settings_adc_reference_level_mv_summary"
+        android:entries="@array/pref_adc_reference_level_entries"
+        android:entryValues="@array/pref_adc_reference_level_values"
+        android:defaultValue="@string/pref_adc_reference_level_default" />
+</PreferenceScreen>
