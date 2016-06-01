@@ -8,6 +8,7 @@
     <string name="title_spi">SPI</string>
     <string name="title_i2c">I2C</string>
     <string name="title_uart">UART</string>
+    <string name="title_tuner">TUNER</string>
     <string name="legend_not_available">N/A</string>
     <string name="legend_ts0">TS 0</string>
     <string name="legend_ts1">TS 1</string>

@@ -25,6 +25,7 @@ import android.view.View;
 import org.openott.ioclient.fragments.GPIOFragment;
 import org.openott.ioclient.fragments.I2CFragment;
 import org.openott.ioclient.fragments.SPIFragment;
+import org.openott.ioclient.fragments.TunerRpcFragment;
 import org.openott.ioclient.fragments.UARTFragment;
 import org.openott.ioclient.interfaces.IMediaRiteActivity;
 import com.futarque.mediarite.IMediaRite;
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
         I2CFragment.OnFragmentInteractionListener,
         SPIFragment.OnFragmentInteractionListener,
         UARTFragment.OnFragmentInteractionListener,
+        TunerRpcFragment.OnFragmentInteractionListener,
         IMediaRiteActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
     /**
@@ -224,6 +226,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
         private I2CFragment mI2C;
         private SPIFragment mSPI;
         private UARTFragment mUart;
+        private TunerRpcFragment mTunerRpc;
 
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -253,13 +256,18 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
                         mUart = new UARTFragment();
                     }
                     return mUart;
+                case 4:
+                    if(mTunerRpc ==null) {
+                        mTunerRpc = new TunerRpcFragment();
+                    }
+                    return mTunerRpc;
             }
             return null;
         }
 
         @Override
         public int getCount() {
-            return 4;
+            return 5;
         }
 
         @Override
@@ -274,6 +282,8 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
                     return getString(R.string.title_spi).toUpperCase(l);
                 case 3:
                     return getString(R.string.title_uart).toUpperCase(l);
+                case 4:
+                    return getString(R.string.title_tuner).toUpperCase(l);
             }
             return null;
         }

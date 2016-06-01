@@ -4,6 +4,7 @@
     package="org.openott.ioclient">
 
     <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /><!-- WRITE_EXTERNAL_STORAGE is required for DVR + valgrind -->
 
     <application
 		android:allowBackup="true"
